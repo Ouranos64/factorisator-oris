@@ -22,7 +22,7 @@ function factorisator(a, b, c)
 	}
 
 	else if(d == 0)
-  {
+	{
 		let x = -b / (2 * a);
 		console.log("Le polynôme peut s'écrire sous forme factorisée :" + a + "(x-" + x + ")^2)");
 	}
@@ -31,6 +31,7 @@ function factorisator(a, b, c)
 	{
 		console.log("P A N I K le discriminant est inférieur à 0!");
 	}
+
 }
 
 let but = document.getElementById("button");
