@@ -10,7 +10,7 @@ for (let i = 0; i <p.length; i++)
 	// Donc à chaque iteration de la boucle tu affectes à coeff la valeur 2
 }
 console.log(coeff[0])
-function factorisator(a, b, c)
+function factorisator(a, b, c) //qoqsoqs
 {
 	let d = (b ** 2) - (4 * a * c);
 	console.log("Le discriminant est égal à " + d);
